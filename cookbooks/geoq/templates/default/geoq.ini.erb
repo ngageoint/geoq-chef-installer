@@ -1,0 +1,36 @@
+[uwsgi]
+
+virtualenv = <%= node['geoq']['virtualenv']['location'] %>
+
+logto = <%= File.join(node['geoq']['logging']['location'] , 'geoq.log') %>
+log-maxsize = 20971520
+
+#uid = www-data
+#gid = www-data
+
+# master
+master                  = true
+#master-as-root          = true
+
+# maximum number of processes
+processes               = 10
+
+# the socket (use the full path to be safe)
+socket          = /tmp/uwsgi.sock
+
+# with appropriate permissions - *may* be needed
+#chmod-socket    = 644
+
+chown-socket    = www-data
+
+# the base directory
+chdir           = <%= node['geoq']['location'] %>
+
+# Django's wsgi file
+module          = geoq.wsgi
+
+# the virtualenv
+home            = <%= node['geoq']['virtualenv']['location'] %>
+
+# clear environment on exit
+vacuum          = true
