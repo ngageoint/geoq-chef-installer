@@ -16,7 +16,7 @@ If you'd like to contribute to this project, please make a pull request. We'll r
 ###This project uses:
 Chef under [Apache v2] (https://github.com/opscode/chef/blob/master/LICENSE)
 
-Vagrant under [MIT](https://github.com/mitchellh/vagrant/blob/master/LICENSE
+Vagrant under [MIT](https://github.com/mitchellh/vagrant/blob/master/LICENSE)
 
 Postgres under [PostgreSQL license] (http://www.postgresql.org/about/licence/)
 
