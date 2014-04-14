@@ -38,7 +38,7 @@ Installation Steps
     sudo vagrant plugin install vagrant-berkshelf
     cd ~/Sites (or wherever you keep your code)
     git clone https://github.com/ngageoint/geoq-chef-installer.git
-    cd geoq-chef-repo
+    cd geoq-chef-installer
 
     vagrant up (to deploy to a local virtualbox vm)
 
