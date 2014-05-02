@@ -79,7 +79,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         chef.add_recipe "geoq"
 
         if vagrant_config and vagrant_config['AWS-GEOQ']['USE_LOCAL_REPO']==true
-          config.vm.synced_folder "../geoq-django", "/vagrant/geoq-repo"
+          config.vm.synced_folder "../geoq", "/vagrant/geoq-repo"
 
         chef.json = {
           :geoq => {

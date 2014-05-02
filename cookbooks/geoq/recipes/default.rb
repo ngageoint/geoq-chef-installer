@@ -32,7 +32,7 @@ execute "install_geoq_dependencies" do
 end
 
 execute "install_dev_fixtures" do
-  command "sudo #{node['geoq']['virtualenv']['location']}/bin/activate && sudo paver delayed_fixtures"
+  command "source #{node['geoq']['virtualenv']['location']}/bin/activate && paver delayed_fixtures"
   cwd node['geoq']['location']
   action :nothing
   user 'root'
