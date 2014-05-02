@@ -10,10 +10,6 @@ geoq app up on either a local Virtualbox VM or onto an Amazon Web Service VM. Th
 The GeoQ and geoq-chef-installer software was developed at the National Geospatial-Intelligence Agency (NGA) as a joint effort between NGA and The MITRE Corporation. The government has "unlimited rights" and is releasing this software into the public domain to increase the impact of government investments by providing developers with the opportunity to take things in new directions. You can copy, modify, combine with other software, distribute and perform the work, even for commercial purposes, all without asking permission. NGA assumes no responsibility for the use of the software by any parties, and makes no guarantees, expressed or implied, about the software quality, reliability, or any other characteristic. The Geo-Events software can be redistributed and/or modified freely provided that any derivative work bears the following notice: "Elements of this work contain Geo-Events: The National Geospatial-Intelligence Agency and The MITRE Corporation jointly produced this work."
 
 
-###Pull request
-
-If you'd like to contribute to this project, please make a pull request. We'll review the pull request and discuss the changes. By submitting a pull request you agree to keep this work free of restrictions.  You are free to fork this project and add unique elements with your own stipulations in another repository or platform, but this version shall remain free of restrictions.
-
 ###This project uses:
 Chef under [Apache v2] (https://github.com/opscode/chef/blob/master/LICENSE)
 
