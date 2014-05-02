@@ -16,7 +16,7 @@ If you'd like to contribute to this project, please make a pull request. We'll r
 ###This project uses:
 Chef under [Apache v2] (https://github.com/opscode/chef/blob/master/LICENSE)
 
-Vagrant under [MIT](https://github.com/mitchellh/vagrant/blob/master/LICENSE
+Vagrant under [MIT](https://github.com/mitchellh/vagrant/blob/master/LICENSE)
 
 Postgres under [PostgreSQL license] (http://www.postgresql.org/about/licence/)
 
@@ -38,7 +38,7 @@ Installation Steps
     sudo vagrant plugin install vagrant-berkshelf
     cd ~/Sites (or wherever you keep your code)
     git clone https://github.com/ngageoint/geoq-chef-installer.git
-    cd geoq-chef-repo
+    cd geoq-chef-installer
 
     vagrant up (to deploy to a local virtualbox vm)
 
