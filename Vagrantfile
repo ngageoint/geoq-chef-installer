@@ -60,7 +60,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   if vagrant_config and vagrant_config['AWS-GEOQ']['SKIP_SCRIPTS']
 
       if vagrant_config and vagrant_config['AWS-GEOQ']['USE_LOCAL_REPO']==true
-          config.vm.synced_folder "../geoq-django", "/vagrant/geoq-repo"
+          config.vm.synced_folder "../geoq", "/vagrant/geoq-repo"
       end
 
   else
@@ -68,6 +68,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       config.vm.provision :shell, :path => "scripts/install_ruby.sh"
       config.vm.provision :shell, :path => "scripts/install_PIL.sh"
       config.vm.provision :shell, :path => "scripts/install_lessc.sh"
+      config.vm.provision :shell, :path => "scripts/install_geographiclib.sh"
+
       config.vm.provision :shell, :inline => "gem install chef --version 11.6.0 --no-rdoc --no-ri --conservative"
 
       config.vm.provision :chef_solo do |chef|
