@@ -17,7 +17,7 @@ default[:postgis][:version] = '2.0.4'
 default['postgis']['template_name'] = 'template_postgis'
 default['postgis']['locale'] = 'en_US.utf8'
 
-default['geoq']['settings']['static_root'] = '/usr/src/geoq/geoq/static'
+default['geoq']['settings']['static_root'] = '/usr/src/static'
 default['geoq']['settings']['static_url'] = '/static/'
 
 default['geoq']['settings']['DATABASES'] = {
