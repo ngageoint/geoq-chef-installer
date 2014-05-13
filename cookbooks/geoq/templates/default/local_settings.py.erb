@@ -13,5 +13,5 @@ DATABASES = {
 STATIC_ROOT = '<%= node['geoq']['settings']['static_root'] %>'
 STATIC_URL = '<%= node['geoq']['settings']['static_url'] %>'
 
-STATICFILES_DIRS = ('<%= node['geoq']['virtualenv']['location'] %>/local/lib/python2.7/site-packages/django/contrib/admin/static/',)
+STATICFILES_DIRS = ('<%= node['geoq']['virtualenv']['location'] %>/local/lib/python2.7/site-packages/django/contrib/admin/static/', '<%= node['geoq']['location'] %>/geoq/static')
 
