@@ -1,3 +1,3 @@
  #!/usr/bin/env bash
 
- sudo apt-get install node-less yui-compressor
+ sudo apt-get install -y node-less yui-compressor

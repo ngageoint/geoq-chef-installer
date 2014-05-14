@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo apt-get install geographiclib-tools
+sudo apt-get install -y geographiclib-tools
