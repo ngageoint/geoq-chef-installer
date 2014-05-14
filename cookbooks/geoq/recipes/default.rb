@@ -21,7 +21,7 @@ git node['geoq']['location'] do
   action :sync
   notifies :run, "execute[install_geoq_dependencies]", :immediately
   notifies :run, "bash[sync_db]"
-  notifies :run, "execute[install_dev_fixtures]"
+#  notifies :run, "execute[install_dev_fixtures]"
 end
 
 execute "install_geoq_dependencies" do
