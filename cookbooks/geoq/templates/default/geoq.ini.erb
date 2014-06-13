@@ -5,6 +5,8 @@ virtualenv = <%= node['geoq']['virtualenv']['location'] %>
 logto = <%= File.join(node['geoq']['logging']['location'] , 'geoq.log') %>
 log-maxsize = 20971520
 
+buffer-size=32768
+
 #uid = www-data
 #gid = www-data
 

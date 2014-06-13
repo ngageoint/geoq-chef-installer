@@ -24,7 +24,6 @@ postgresql_database geoq_db[:name] do
   template node['postgis']['template_name']
   owner geoq_db[:user]
   action :create
-  notifies :run, "bash[install_fixtures]"
 end
 
 postgresql_database 'set user' do

@@ -94,8 +94,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         end
       end
 
-      config.vm.provision :shell, :path => "scripts/restart_web_server.sh"
-
   end
+  config.vm.provision :shell, :path => "scripts/restart_web_server.sh"
 
 end
