@@ -7,7 +7,7 @@ Overview
 This is a set of Chef recipes (think of them as macros to automatically build a running Virtual Machine) that will work to set the
 geoq app up on either a local Virtualbox VM or onto an Amazon Web Service VM. This tool requires a working knowledge of chef and server management, but will streamline the installation and management of geoq.
 
-The GeoQ Chef Installer software was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with [The MITRE Corporation] (http://www.mitre.org).  The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the [MIT] (http://choosealicense.com/licenses/mit/) license.  
+The GeoQ Chef Installer was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with [The MITRE Corporation] (http://www.mitre.org).  The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the [MIT] (http://choosealicense.com/licenses/mit/) license.  
 
 ###Pull Requests
 If you'd like to contribute to this project, please make a pull request. We'll review the pull request and discuss the changes. All pull request contributions to this project will be released under the MIT license.  
