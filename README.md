@@ -7,7 +7,12 @@ Overview
 This is a set of Chef recipes (think of them as macros to automatically build a running Virtual Machine) that will work to set the
 geoq app up on either a local Virtualbox VM or onto an Amazon Web Service VM. This tool requires a working knowledge of chef and server management, but will streamline the installation and management of geoq.
 
-The GeoQ and geoq-chef-installer software was developed at the National Geospatial-Intelligence Agency (NGA) as a joint effort between NGA and The MITRE Corporation. The government has "unlimited rights" and is releasing this software into the public domain to increase the impact of government investments by providing developers with the opportunity to take things in new directions. You can copy, modify, combine with other software, distribute and perform the work, even for commercial purposes, all without asking permission. NGA assumes no responsibility for the use of the software by any parties, and makes no guarantees, expressed or implied, about the software quality, reliability, or any other characteristic.   We would appreciate acknowledgement if the software is used. However, the following suggested derivative or modified statement is optional:  "Elements of this work contain GeoQ: The National Geospatial-Intelligence Agency and The MITRE Corporation jointly produced this work."  
+The GeoQ Chef Installer software was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with [The MITRE Corporation] (http://www.mitre.org).  The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the [MIT] (http://choosealicense.com/licenses/mit/) license.  
+
+###Pull Requests
+If you'd like to contribute to this project, please make a pull request. We'll review the pull request and discuss the changes. All pull request contributions to this project will be released under the MIT license.  
+
+Software source code previously released under an open source license and then modified by NGA staff is considered a "joint work" (see 17 USC § 101); it is partially copyrighted, partially public domain, and as a whole is protected by the copyrights of the non-government authors and must be released according to the terms of the original open source license.
 
 ###This project uses:
 Chef under [Apache v2] (https://github.com/opscode/chef/blob/master/LICENSE)
