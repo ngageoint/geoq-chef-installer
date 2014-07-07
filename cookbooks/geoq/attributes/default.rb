@@ -3,7 +3,7 @@ default['geoq']['logging']['location'] = '/var/log/geoq'
 default['geoq']['virtualenv']['location'] = '/var/lib/geoq'
 default['geoq']['location'] = '/usr/src/geoq'
 default['geoq']['git_repo']['location'] = 'https://github.com/ngageoint/geoq.git'
-default['geoq']['git_repo']['branch'] = 'master'
+default['geoq']['git_repo']['branch'] = 'develop'
 default['postgresql']['password']['postgres'] = 'geoq'
 
 default['postgresql']['version'] = '9.3'
