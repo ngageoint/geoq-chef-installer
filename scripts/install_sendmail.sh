@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo apt-get install sendmail
+sudo apt-get -y install sendmail

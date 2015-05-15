@@ -1,6 +1,6 @@
  #!/usr/bin/env bash
 
- sudo apt-get build-dep python-imaging
+ sudo apt-get -y build-dep python-imaging
 
  sudo ln -s -f /usr/lib/`uname -i`-linux-gnu/libfreetype.so /usr/lib/
  sudo ln -s -f /usr/lib/`uname -i`-linux-gnu/libjpeg.so /usr/lib/
