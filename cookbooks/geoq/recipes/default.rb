@@ -6,6 +6,9 @@ geoq_pkgs.each do |pkg|
   end
 end
 
+include_recipe 'geoq::postgis'
+include_recipe 'geoq::database'
+
 python_virtualenv node['geoq']['virtualenv']['location'] do
   interpreter "python2.7"
   action :create
@@ -57,8 +60,8 @@ hostsfile_entry node['geoq']['database']['address'] do
   action :append
 end
 
-include_recipe 'geoq::postgis'
-include_recipe 'geoq::database'
+##include_recipe 'geoq::postgis'
+##include_recipe 'geoq::database'
 
 directory node['geoq']['logging']['location'] do
   action :create
