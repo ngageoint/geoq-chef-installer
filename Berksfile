@@ -9,3 +9,4 @@ cookbook 'geoq', :path => "cookbooks/geoq"
 cookbook 'hostsfile', '~> 2.4.0'
 cookbook 'database', '~>2.2.0'
 cookbook "postgresql", '~> 3.4.0'
+cookbook 'nginx'
